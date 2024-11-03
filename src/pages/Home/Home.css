@@ -1,0 +1,53 @@
+
+.lead14 {
+    padding: 100px; /* Padding for spacing */
+    background-color: #287c5c !important;
+    width:1800px;
+    height:1800px;
+    text-align: center; /* Centers the text horizontally */
+    margin-left: -500px;
+    margin-top: -500px;
+}
+.header-icon{
+    height:50px;
+    margin-left: 200px;
+    margin-bottom: 500px;
+}
+.header {
+    /* Earthy brown background */
+    background-color: #287c5c;
+    margin-right:-500px;
+    width:5000px;
+    height:50px;
+    text-align: center; /* Center the text */
+
+}
+
+.header-title {
+    font-size: 2.5rem; /* Large font size for title */
+    margin-top: 30px;
+}
+
+.header-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation */
+}
+
+.header-nav li {
+    margin: 0 15px; /* Margin between navigation items */
+}
+
+.header-nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header-nav a:hover {
+    color: #D77C14; /* Change color on hover */
+}
+
+

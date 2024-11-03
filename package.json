@@ -1,0 +1,78 @@
+{
+  "name": "visacc",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://graccy4eva.github.io/trivia/",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.8.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv-errors": "^1.0.1",
+    "d3": "^7.4.4",
+    "d3-selection": "^3.0.0",
+    "defaults": "^1.0.3",
+    "dotenv": "^16.4.0",
+    "firebase": "^9.9.2",
+    "hotkeys-js": "^3.9.4",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "p5": "^1.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-vega": "^7.6.0",
+    "stats-lite": "^2.2.0",
+    "tone": "^14.7.77",
+    "ua-parser-js": "^1.0.2",
+    "vega": "^5.22.1",
+    "vega-datasets": "^2.3.0",
+    "vega-embed": "^6.20.8",
+    "vega-lite": "^5.2.0",
+    "web-vitals": "^2.1.4",
+    "words-to-numbers": "^1.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "install-p5-speech": "cd node_modules/ && git clone https://github.com/IDMNYU/p5.js-speech"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "jest-canvas-mock": "^2.4.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "../p5": "p5"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!d3|d3-array|internmap|robust-predicates|delaunator|vega-lite|p5|p5.speech.js)"
+    ]
+  }
+}

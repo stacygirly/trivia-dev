@@ -1,0 +1,48 @@
+.lead9 {
+    padding: 20px; /* Padding for spacing */
+    margin-top: 180px;
+}
+
+.header {
+    background-color: #287c5c; /* Earthy brown background */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding for spacing */
+    margin-left: -500px;
+    margin-top: -200px;
+    width: 2000px;
+    height:73px;
+    text-align: center; /* Center the text */
+}
+
+.header-title {
+    font-size: 2.5rem; /* Large font size for title */
+   /* Change this value to set the desired top margin */
+    margin-bottom: 20px; /* You can keep the bottom margin as is or adjust it */
+}
+
+.header-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation */
+}
+
+.header-nav li {
+    margin: 0 15px; /* Margin between navigation items */
+}
+
+.header-nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header-nav a:hover {
+    color: #D77C14; /* Change color on hover */
+}
+.header-icon{
+    height:100px;
+    margin-left: -1600px;
+    margin-top: -30px;
+}
